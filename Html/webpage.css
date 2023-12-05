@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #4662de;
+    color: white;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 30px;
+  }
+  
+  /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+
+
+  .logo {
+    float: left;
+}
+.logo img {
+    float:left
+ 
+}
+
+  .header-col1 h2 {
+    color: #3b3663;
+    font-size: 60px;
+    line-height: 43px;
+    margin: 21px 0px 15px;
+}
+.content{
+  size:80%;
+  width: 550px;
+  height: auto;
+  margin: 10;
+  float:left;
+  color: rgb(0, 0, 0);
+  position: relative;
+  
+}
+.content .par{
+  padding-left: 12px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 60px;
+  padding-left: 10px;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+.img2 {
+  width:50%;
+  width:500px;
+  height:100px;
+
+  position: relative;
+  margin-right:20;
+}
+
+.content .cn{
+  width: 180px;
+  height: 40px;
+  background: #0d83f8;
+  border: none;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+  
+}
+.content .cn a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: rgb(44, 250, 250);
+}
+.content span{
+  color: #388dee;
+  font-size: 65px
+}
+
+
+/*hero_section*/
+.first_container {
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.first_box{
+  color:#4662de;
+}
+.first_box h1{
+  font-size: 50px;
+  color:rgb(37, 138, 239);
+  font-weight:900;
+}
+
+/* .first_box p {
+  font-size: 20px;
+  width: 900px;
+  float:left;
+  color: rgb(75, 75, 75);
+   text-align:left;
+} */
+/*end of hero_section*/
+/*second-section*/
+.first_container h3{
+  text-align: left;
+  font-size: 25px;
+  color:#0077ff;
+  margin-bottom: auto;
+}
+.first_container p{
+  text-align: left;
+  font-size: 20px;
+}
+
+.cn2{
+  width: 180px;
+  height:40px;
+  border:none;
+  background: #0077ff;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+
+}
+.cn2 a{
+  text-decoration: none;
+  color:#fafbfc;
+  transition: .3s ease;
+}
+
+/*common style for section*/
+.common_style>section {
+  padding:50px 0;
+
+}
+.common_style .row {
+  align-items:center;
+
+}
+.common_style h3 {
+  font-weight:700;
+  color:#4662de;
+
+}
+
+.common_style img{
+  width:100%
+}
+/*about_section*/
+
+/*why choose us */
+
+.why-choose-col {
+  float: left;
+  width:80%
+}
+.common-h5{
+  text-align: left;
+  font-size: 25px;
+  color:#0077ff;
+}
+
+.img{
+  width:50%;
+  float:right;
+}
+
+
+
+  section.header-bg-parent:after {
+    content: "SEO";
+    position: absolute;
+    color: #fafbfc;
+    top: 250px;
+    left: -140px;
+    font-size: 230px;
+    transform: rotate(-90deg);
+    font-family: "Rubik";
+    font-weight: 800;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(6, 128, 251);
+    color: black;
+  }
+  
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+    float: right;
+    
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+    /* Footer */
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .short{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      font-size: 20px;
+  }
+  .wea span{
+    width: 60%;
+    align-items: center;
+      text-align: center;
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    flex-wrap: wrap;
+  }
+  .card-img{
+    border-radius: 5px;
+  }
+  .cards .card{
+    width: 16rem;
+    margin: 20px;
+  }
+  .card p{
+    font-size: 14px;
+  }
+  .active{
+    border-bottom: 1px solid #fff;
+  }
+  .card-img1{
+    background-image: url('1.jpg');
+    width: 100%;
+    height: 12rem;
+    background-size: cover;
+    background-position: center ;
+  }
+  .card-img2{
+    background-image: url('2.jpg');
+    width: 100%;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+    .butn{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      width: 140px;
+      height: 30px;
+      background: #4662de;
+      border: none;
+      margin-top: 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #fff;
+      transition: 0.4s ease;
+  }
+  .butn:hover
+  {
+      background: #fff;
+      color: #4662de;
+  }
+  
+  *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .main-wrap{
+      width: 100%;
+      background: #fff;
+  }
+  .footer-wrap{
+      position: relative;
+      margin-top:320px; /*you can remove or edit this margin-top property when you are using this footer on your project. */
+      width:100%;
+      padding:40px;
+      background: rgb(255, 247, 247);
+  }
+  .footer-wrap-1{
+      display: flex;
+  }
+  .footer-section{
+      width:22%;
+      display:block;
+      padding:10px 35px;
+  }
+  .footer-section:last-of-type{
+      width:34%;
+  }
+  .footer-section p{
+      color:#fff;
+      font-size: 16px;
+  }
+  .footer-section h1{
+      font-size:22px;
+      color:#fff;
+      margin-bottom:8px;
+  }
+  .footer-section a{
+      color:#fff;
+      display: block;
+      text-decoration: none;
+      padding:4px 0px;
+  }
+
+  .btn:hover{
+      background: rgb(107,204,94);
+  }
+  .line{
+      margin-top:20px;
+      width:100%;
+      height:1px;;
+      background: rgb(143, 142, 142);
+  }
+  .footer-bottom{
+      background: rgb(12, 12, 12);
+      width:100%;
+      padding:20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .footer-bottom a{
+      color:#fff;
+      font-size:14px;
+      margin-left:20px;
+      text-decoration:none;
+  }
+  .first-box{
+      margin-left: 20px;
+  }
+  .last-box{
+      margin-right:20px;
+  } 
+ 
+  .flex{
+    display: flex;
+  }
+
+
+  .first_section {
+    padding: 100px;
+  }
+
+  .pt-5{
+    padding-top: 50px;
+  }
+
+  .h-screen-25{
+    height: 75vh;
+  }
+  p {
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+    margin: 40px 0 50px 0;
+    font-weight: lighter;
+    font-size: 17px;
+  }

@@ -1,0 +1,19 @@
+
+
+**Database Name: attendancemsystem*
+
+
+
+**Recommended PHP Version 5.6 
+
+
+**Admin Login Details**
+
+
+Password: Password@123
+
+
+
+
+Password: pass123
+
